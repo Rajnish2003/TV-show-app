@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(175, 170, 170);
+}
+
+div {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: calc(80%/4);
+    height: 20%;
+    background-color: rgb(208, 211, 212);
+}
+
+h1 {
+    margin: 1.5rem 0;
+    display: inline;
+    font-size: 1.5rem;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#app {
+    color: rgb(39, 7, 7);
+    font-weight: 700;
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+}
+
+input {
+    height: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 16rem;
+}
+
+button {
+    height: 2rem;
+    padding: 0 1rem;
+    background-color: rgb(197, 57, 57);
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: red;
+}
+
+form {
+    text-align: center;
+}
